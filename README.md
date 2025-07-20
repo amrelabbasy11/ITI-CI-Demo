@@ -9,18 +9,7 @@ This repository contains:
 - Unit tests for the application (`test_app.py`)
 - GitHub Actions workflow for continuous integration (`.github/workflows/ci.yml`)
 
-## Application Code
+## Github Action Pipeline
+<img width="1397" height="560" alt="image" src="https://github.com/user-attachments/assets/7224b80a-b149-4c90-8e9a-bad093c5a084" />
 
-The Flask application has a single route that returns "Hello, ITI!":
-
-``` python
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Hello, ITI!"
-
-if __name__ == '__main__':
-    app.run() 
 
