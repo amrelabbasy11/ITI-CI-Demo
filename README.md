@@ -13,7 +13,7 @@ This repository contains:
 
 The Flask application has a single route that returns "Hello, ITI!":
 
-```python
+``` python
 from flask import Flask
 app = Flask(__name__)
 
@@ -22,8 +22,5 @@ def home():
     return "Hello, ITI!"
 
 if __name__ == '__main__':
-    app.run()
-
-## Github Action pipeline
-<img width="1397" height="560" alt="image" src="https://github.com/user-attachments/assets/8c7623a8-d33c-485b-96fe-70947baa55aa" />
+    app.run() 
 
